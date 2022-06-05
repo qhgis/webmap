@@ -1,0 +1,108 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Map service</title>
+		<link rel="stylesheet" href="css/mapservice.css" />
+		<link rel="stylesheet" href="https://js.arcgis.com/4.23/esri/css/main.css">
+		<link rel="stylesheet" href="css/css_menu.css" />
+		<script src="https://js.arcgis.com/4.23/"></script>
+		<script src="js/mapservice.js"></script>
+	</head>
+
+	<body>
+
+
+
+		<!--******************************************************地图显示DIV*****************************************************************-->
+		<div id="viewDiv01">
+			<!--******************************************************地图切换DIV*****************************************************************-->
+
+
+
+		</div>
+		<div id="viewDiv02">
+
+			<!--******************************************************信息*****************************************************************-->
+
+			<div class="infobox1">
+
+				<div id="Harvard" class="campusimg" >
+					<img src="img/harvard.png"/>
+
+					</div>
+				<div  class="text1" >
+
+					<h1>Harvard</h1>
+					<p>哈佛大学（Harvard University），简称“哈佛”，是一所私立研究型大学，常年荣居U.S. News世界大学排名世界第一，常春藤盟校、全球大学高研院联盟成员，坐落于美国马萨诸塞州波士顿都市区剑桥市。</p>
+				</div>
+
+
+			</div>
+
+			<div class="infobox2">
+
+				<div id="clemson" class="campusimg2" >
+					<img src="img/clemson.png"/>
+
+				</div>
+				<div  class="text2" >
+
+					<h1>Clemson</h1>
+					<p>克莱姆森大学（Clemson University）是一所顶级公立研究型大学，位于美国南卡罗来纳州克莱姆森市，是美国二十所顶尖的公立大学之一。克莱姆森大学成立于1889年，共分为五个学院：农林与生命科学学院、建筑艺术与人文学院、商业和行为科学学院、工程与科学学院、卫生教育与人类发展学院。克莱姆森大学被卡内基高等教育机构分类归类为“R1：博士大学——非常高的研究活动”。</p>
+				</div>
+
+
+			</div>
+
+
+
+
+			<!--******************************************************工具*****************************************************************-->
+			<div id="popdiv_write">
+				<p>Choose Basemap</p>
+				<div id="write_output">
+					<div id="basemap01" class="basemap" ><img src="img/gray.png"/></div>
+					<div id="basemap02" class="basemap" ><img src="img/satellite.png"/></div>
+
+
+				</div>
+			</div>
+
+			<!--	添加图层-->
+
+			<div id="layerbox">
+				<p>Add Layer</p>
+				<div class="singlebox">
+					<p>Universities </p>
+					<input type="button" name="add_button" id="Add_point" value="add">
+					<input type="button" name="remove_button" id="Remove_point" value="remove">
+					<br/>
+				</div>
+				<div class="singlebox">
+					<p>NY Degree</p>
+					<input type="button" name="add_button" id="Add_line" value="add">
+					<input type="button" name="remove_button" id="Remove_line" value="remove">
+					<br/>
+				</div>
+				<div class="singlebox">
+					<p>University polygon </p>
+					<input type="button" name="add_button" id="Add_polygon" value="add">
+					<input type="button" name="remove_button" id="Remove_polygon" value="remove"><br/>
+					<br/>
+				</div>
+				<div id="Layers"></div>
+			</div>
+
+		</div>
+
+
+
+<!--地图2-->
+
+
+
+	</body>
+
+</html>

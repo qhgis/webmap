@@ -1,0 +1,173 @@
+
+html, body {
+
+	background: url(../img/body.gif) repeat;
+	text-align: center;
+
+    }
+#viewDiv01{
+	float: left;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 70%;
+
+}
+
+#viewDiv02 {
+	float: right;
+	top: 0px;
+	right: 0px;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 30%;
+}
+
+img{width:120px;height:120px}
+
+#popdiv_write{
+	position: absolute;
+	right: 20px;
+	top: 19px;
+	width: 179px;
+	height: 311px;
+	padding: 5px;
+	background-size: 100%;
+	background-color: #C0C0C0;
+	opacity: 0.85;
+	z-index: 9;
+	text-align: center;
+	border: #C0C0C0;
+	border-radius:5px ;
+}
+
+.basemap{
+	margin: 10px;
+	z-index: 20;
+	text-align: center;
+}
+
+
+
+
+#LayerBox{
+	position: absolute;
+	top: 20px;
+	right: 140px;
+	width: 200px;
+	height: 320px;
+	margin-right:150px;
+	background-size: 100%;
+	background-color: #C0C0C0;
+	opacity: 0.8;
+	z-index: 9;
+
+	border: #C0C0C0;
+	border-radius:5px ;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+
+
+.infobox1{
+	position:absolute;
+
+	top:380px ;
+	width: 600px;
+	height: 220px;
+	margin-right:200px;
+	background-size: 100%;
+	background-color: #C0C0C0;
+	opacity: 0.8;
+	z-index: 9;
+
+	border: #C0C0C0;
+	border-radius:5px ;
+
+	font-family: "微软雅黑";
+
+}
+.infobox1 .campusimg{
+	margin: 10px;
+	margin-top: 45px;
+	height: 180px;
+	width: 180px;
+
+	float: left;
+}
+.text1{
+	text-align: left;
+	width: 380px;
+	float: left;
+}
+
+.infobox2{
+	position:absolute;
+
+	top:610px ;
+	width: 600px;
+	height: 270px;
+	margin-right:200px;
+	background-size: 100%;
+	background-color: #C0C0C0;
+	opacity: 0.8;
+	z-index: 9;
+
+	border: #C0C0C0;
+	border-radius:5px ;
+
+	font-family: "微软雅黑";
+
+}
+.infobox2 .campusimg2{
+	margin: 10px;
+	margin-top: 80px;
+	height: 180px;
+	width: 180px;
+
+	float: left;
+}
+.text2{
+	text-align: left;
+	width: 380px;
+	float: left;
+}
+
+
+.button_Add{
+	margin-left: 5px;
+	float: left;
+	background-color: white;
+	border: 1px solid lightgreen;
+	color: lightgreen;
+	border-radius:5px ;
+	height: 20px;
+	width: 20px;
+	opacity: 0.8;
+}
+
+.button_Remove{
+	margin-left: 5px;
+	float: left;
+	position:initial;
+	background-color: white;
+	border: 1px solid red;
+	color: red;
+	border-radius:5px ;
+	height: 20px;
+	width: 20px;
+	opacity: 0.8;
+}
+
+#SingleBox{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+#Layers{
+	color: dimgray;
+}
+
